@@ -1,6 +1,6 @@
 # TouchTime
 
-An Objective-C class library for iOS that will parse a veritable cornucopia of date and time strings and magically turn them into an NSDate. The conversion routines are based on the code provided in the powerful _strtotime_ function in PHP 5.4.
+An Objective-C class library for iOS that will parse a veritable cornucopia of formatted and unformatted (natural language) date and time strings and magically turn them into an NSDate. The conversion routines are based on the code provided in the powerful _strtotime_ function in PHP 5.4.
 
 For information on the PHP _strtotime_ function, see http://php.net/manual/en/function.strtotime.php.
 
@@ -25,3 +25,5 @@ For information on the PHP _strtotime_ function, see http://php.net/manual/en/fu
     myDate = [TouchTime stringToDate:@"5PM"];`
 
 For a detailed list of formats supported by the PHP _strtotime_ function, see http://www.php.net/manual/en/datetime.formats.php.
+
+If you like what you see, don't hesitate to show your love via twitter and [tweet me](https://twitter.com/jimheising).
