@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF808FF117153CC700513E3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF808FF017153CC700513E3D /* Foundation.framework */; };
+		BF808FF617153CC700513E3D /* TouchTime.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BF808FF517153CC700513E3D /* TouchTime.h */; };
+		BF80900017153CC700513E3D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF808FFF17153CC700513E3D /* SenTestingKit.framework */; };
+		BF80900217153CC700513E3D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF80900117153CC700513E3D /* UIKit.framework */; };
+		BF80900317153CC700513E3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF808FF017153CC700513E3D /* Foundation.framework */; };
+		BF80900617153CC700513E3D /* libTouchTime.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF808FED17153CC700513E3D /* libTouchTime.a */; };
+		BF80900C17153CC700513E3D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF80900A17153CC700513E3D /* InfoPlist.strings */; };
+		BF80900F17153CC700513E3D /* TouchTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF80900E17153CC700513E3D /* TouchTimeTests.m */; };
+		BF80902B17153D9C00513E3D /* astro.c in Sources */ = {isa = PBXBuildFile; fileRef = BF80901A17153D9C00513E3D /* astro.c */; };
+		BF80902D17153D9C00513E3D /* dow.c in Sources */ = {isa = PBXBuildFile; fileRef = BF80901C17153D9C00513E3D /* dow.c */; };
+		BF80902F17153D9C00513E3D /* interval.c in Sources */ = {isa = PBXBuildFile; fileRef = BF80901E17153D9C00513E3D /* interval.c */; };
+		BF80903117153D9C00513E3D /* parse_date.c in Sources */ = {isa = PBXBuildFile; fileRef = BF80901F17153D9C00513E3D /* parse_date.c */; };
+		BF80903317153D9C00513E3D /* parse_date.re in Resources */ = {isa = PBXBuildFile; fileRef = BF80902017153D9C00513E3D /* parse_date.re */; };
+		BF80903417153D9C00513E3D /* parse_iso_intervals.c in Sources */ = {isa = PBXBuildFile; fileRef = BF80902117153D9C00513E3D /* parse_iso_intervals.c */; };
+		BF80903617153D9C00513E3D /* parse_tz.c in Sources */ = {isa = PBXBuildFile; fileRef = BF80902217153D9C00513E3D /* parse_tz.c */; };
+		BF80903817153D9C00513E3D /* timelib.c in Sources */ = {isa = PBXBuildFile; fileRef = BF80902517153D9C00513E3D /* timelib.c */; };
+		BF80903A17153D9C00513E3D /* tm2unixtime.c in Sources */ = {isa = PBXBuildFile; fileRef = BF80902917153D9C00513E3D /* tm2unixtime.c */; };
+		BF80903C17153D9C00513E3D /* unixtime2tm.c in Sources */ = {isa = PBXBuildFile; fileRef = BF80902A17153D9C00513E3D /* unixtime2tm.c */; };
+		BF80904017153DB600513E3D /* cpp_touchtime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF80903E17153DB600513E3D /* cpp_touchtime.cpp */; };
+		BF80904217153DF000513E3D /* TouchTime.mm in Sources */ = {isa = PBXBuildFile; fileRef = BF80904117153DF000513E3D /* TouchTime.mm */; };
+		BF80904317153E9800513E3D /* TouchTime.mm in Sources */ = {isa = PBXBuildFile; fileRef = BF80904117153DF000513E3D /* TouchTime.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF80900417153CC700513E3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF808FE517153CC700513E3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF808FEC17153CC700513E3D;
+			remoteInfo = TouchTime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BF808FEB17153CC700513E3D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				BF808FF617153CC700513E3D /* TouchTime.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BF808FED17153CC700513E3D /* libTouchTime.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTouchTime.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF808FF017153CC700513E3D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BF808FF417153CC700513E3D /* TouchTime-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TouchTime-Prefix.pch"; sourceTree = "<group>"; };
+		BF808FF517153CC700513E3D /* TouchTime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchTime.h; sourceTree = "<group>"; };
+		BF808FFE17153CC700513E3D /* TouchTimeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchTimeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF808FFF17153CC700513E3D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BF80900117153CC700513E3D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BF80900917153CC700513E3D /* TouchTimeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TouchTimeTests-Info.plist"; sourceTree = "<group>"; };
+		BF80900B17153CC700513E3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BF80900D17153CC700513E3D /* TouchTimeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchTimeTests.h; sourceTree = "<group>"; };
+		BF80900E17153CC700513E3D /* TouchTimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchTimeTests.m; sourceTree = "<group>"; };
+		BF80901A17153D9C00513E3D /* astro.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = astro.c; path = ../common/php/astro.c; sourceTree = "<group>"; };
+		BF80901B17153D9C00513E3D /* astro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = astro.h; path = ../common/php/astro.h; sourceTree = "<group>"; };
+		BF80901C17153D9C00513E3D /* dow.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dow.c; path = ../common/php/dow.c; sourceTree = "<group>"; };
+		BF80901D17153D9C00513E3D /* fallbackmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fallbackmap.h; path = ../common/php/fallbackmap.h; sourceTree = "<group>"; };
+		BF80901E17153D9C00513E3D /* interval.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = interval.c; path = ../common/php/interval.c; sourceTree = "<group>"; };
+		BF80901F17153D9C00513E3D /* parse_date.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = parse_date.c; path = ../common/php/parse_date.c; sourceTree = "<group>"; };
+		BF80902017153D9C00513E3D /* parse_date.re */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = parse_date.re; path = ../common/php/parse_date.re; sourceTree = "<group>"; };
+		BF80902117153D9C00513E3D /* parse_iso_intervals.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = parse_iso_intervals.c; path = ../common/php/parse_iso_intervals.c; sourceTree = "<group>"; };
+		BF80902217153D9C00513E3D /* parse_tz.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = parse_tz.c; path = ../common/php/parse_tz.c; sourceTree = "<group>"; };
+		BF80902317153D9C00513E3D /* timelib_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = timelib_config.h; path = ../common/php/timelib_config.h; sourceTree = "<group>"; };
+		BF80902417153D9C00513E3D /* timelib_structs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = timelib_structs.h; path = ../common/php/timelib_structs.h; sourceTree = "<group>"; };
+		BF80902517153D9C00513E3D /* timelib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = timelib.c; path = ../common/php/timelib.c; sourceTree = "<group>"; };
+		BF80902617153D9C00513E3D /* timelib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = timelib.h; path = ../common/php/timelib.h; sourceTree = "<group>"; };
+		BF80902717153D9C00513E3D /* timezonedb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = timezonedb.h; path = ../common/php/timezonedb.h; sourceTree = "<group>"; };
+		BF80902817153D9C00513E3D /* timezonemap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = timezonemap.h; path = ../common/php/timezonemap.h; sourceTree = "<group>"; };
+		BF80902917153D9C00513E3D /* tm2unixtime.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tm2unixtime.c; path = ../common/php/tm2unixtime.c; sourceTree = "<group>"; };
+		BF80902A17153D9C00513E3D /* unixtime2tm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = unixtime2tm.c; path = ../common/php/unixtime2tm.c; sourceTree = "<group>"; };
+		BF80903E17153DB600513E3D /* cpp_touchtime.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cpp_touchtime.cpp; path = ../common/cpp_touchtime.cpp; sourceTree = "<group>"; };
+		BF80903F17153DB600513E3D /* cpp_touchtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cpp_touchtime.h; path = ../common/cpp_touchtime.h; sourceTree = "<group>"; };
+		BF80904117153DF000513E3D /* TouchTime.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TouchTime.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF808FEA17153CC700513E3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF808FF117153CC700513E3D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF808FFA17153CC700513E3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF80900017153CC700513E3D /* SenTestingKit.framework in Frameworks */,
+				BF80900217153CC700513E3D /* UIKit.framework in Frameworks */,
+				BF80900317153CC700513E3D /* Foundation.framework in Frameworks */,
+				BF80900617153CC700513E3D /* libTouchTime.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF808FE417153CC700513E3D = {
+			isa = PBXGroup;
+			children = (
+				BF80901817153D7B00513E3D /* common */,
+				BF808FF217153CC700513E3D /* TouchTime */,
+				BF80900717153CC700513E3D /* TouchTimeTests */,
+				BF808FEF17153CC700513E3D /* Frameworks */,
+				BF808FEE17153CC700513E3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF808FEE17153CC700513E3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF808FED17153CC700513E3D /* libTouchTime.a */,
+				BF808FFE17153CC700513E3D /* TouchTimeTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF808FEF17153CC700513E3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF808FF017153CC700513E3D /* Foundation.framework */,
+				BF808FFF17153CC700513E3D /* SenTestingKit.framework */,
+				BF80900117153CC700513E3D /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF808FF217153CC700513E3D /* TouchTime */ = {
+			isa = PBXGroup;
+			children = (
+				BF808FF517153CC700513E3D /* TouchTime.h */,
+				BF80904117153DF000513E3D /* TouchTime.mm */,
+				BF808FF317153CC700513E3D /* Supporting Files */,
+			);
+			path = TouchTime;
+			sourceTree = "<group>";
+		};
+		BF808FF317153CC700513E3D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF808FF417153CC700513E3D /* TouchTime-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF80900717153CC700513E3D /* TouchTimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF80900D17153CC700513E3D /* TouchTimeTests.h */,
+				BF80900E17153CC700513E3D /* TouchTimeTests.m */,
+				BF80900817153CC700513E3D /* Supporting Files */,
+			);
+			path = TouchTimeTests;
+			sourceTree = "<group>";
+		};
+		BF80900817153CC700513E3D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF80900917153CC700513E3D /* TouchTimeTests-Info.plist */,
+				BF80900A17153CC700513E3D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF80901817153D7B00513E3D /* common */ = {
+			isa = PBXGroup;
+			children = (
+				BF80903F17153DB600513E3D /* cpp_touchtime.h */,
+				BF80903E17153DB600513E3D /* cpp_touchtime.cpp */,
+				BF80901917153D8200513E3D /* php */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		BF80901917153D8200513E3D /* php */ = {
+			isa = PBXGroup;
+			children = (
+				BF80901A17153D9C00513E3D /* astro.c */,
+				BF80901B17153D9C00513E3D /* astro.h */,
+				BF80901C17153D9C00513E3D /* dow.c */,
+				BF80901D17153D9C00513E3D /* fallbackmap.h */,
+				BF80901E17153D9C00513E3D /* interval.c */,
+				BF80901F17153D9C00513E3D /* parse_date.c */,
+				BF80902017153D9C00513E3D /* parse_date.re */,
+				BF80902117153D9C00513E3D /* parse_iso_intervals.c */,
+				BF80902217153D9C00513E3D /* parse_tz.c */,
+				BF80902317153D9C00513E3D /* timelib_config.h */,
+				BF80902417153D9C00513E3D /* timelib_structs.h */,
+				BF80902517153D9C00513E3D /* timelib.c */,
+				BF80902617153D9C00513E3D /* timelib.h */,
+				BF80902717153D9C00513E3D /* timezonedb.h */,
+				BF80902817153D9C00513E3D /* timezonemap.h */,
+				BF80902917153D9C00513E3D /* tm2unixtime.c */,
+				BF80902A17153D9C00513E3D /* unixtime2tm.c */,
+			);
+			name = php;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF808FEC17153CC700513E3D /* TouchTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF80901217153CC700513E3D /* Build configuration list for PBXNativeTarget "TouchTime" */;
+			buildPhases = (
+				BF808FE917153CC700513E3D /* Sources */,
+				BF808FEA17153CC700513E3D /* Frameworks */,
+				BF808FEB17153CC700513E3D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchTime;
+			productName = TouchTime;
+			productReference = BF808FED17153CC700513E3D /* libTouchTime.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BF808FFD17153CC700513E3D /* TouchTimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF80901517153CC700513E3D /* Build configuration list for PBXNativeTarget "TouchTimeTests" */;
+			buildPhases = (
+				BF808FF917153CC700513E3D /* Sources */,
+				BF808FFA17153CC700513E3D /* Frameworks */,
+				BF808FFB17153CC700513E3D /* Resources */,
+				BF808FFC17153CC700513E3D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF80900517153CC700513E3D /* PBXTargetDependency */,
+			);
+			name = TouchTimeTests;
+			productName = TouchTimeTests;
+			productReference = BF808FFE17153CC700513E3D /* TouchTimeTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF808FE517153CC700513E3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Jim Heising (HAARD)";
+			};
+			buildConfigurationList = BF808FE817153CC700513E3D /* Build configuration list for PBXProject "TouchTime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BF808FE417153CC700513E3D;
+			productRefGroup = BF808FEE17153CC700513E3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF808FEC17153CC700513E3D /* TouchTime */,
+				BF808FFD17153CC700513E3D /* TouchTimeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF808FFB17153CC700513E3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF80900C17153CC700513E3D /* InfoPlist.strings in Resources */,
+				BF80903317153D9C00513E3D /* parse_date.re in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BF808FFC17153CC700513E3D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF808FE917153CC700513E3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF80902B17153D9C00513E3D /* astro.c in Sources */,
+				BF80902D17153D9C00513E3D /* dow.c in Sources */,
+				BF80902F17153D9C00513E3D /* interval.c in Sources */,
+				BF80903117153D9C00513E3D /* parse_date.c in Sources */,
+				BF80903417153D9C00513E3D /* parse_iso_intervals.c in Sources */,
+				BF80903617153D9C00513E3D /* parse_tz.c in Sources */,
+				BF80903817153D9C00513E3D /* timelib.c in Sources */,
+				BF80903A17153D9C00513E3D /* tm2unixtime.c in Sources */,
+				BF80903C17153D9C00513E3D /* unixtime2tm.c in Sources */,
+				BF80904017153DB600513E3D /* cpp_touchtime.cpp in Sources */,
+				BF80904217153DF000513E3D /* TouchTime.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF808FF917153CC700513E3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF80900F17153CC700513E3D /* TouchTimeTests.m in Sources */,
+				BF80904317153E9800513E3D /* TouchTime.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF80900517153CC700513E3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF808FEC17153CC700513E3D /* TouchTime */;
+			targetProxy = BF80900417153CC700513E3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF80900A17153CC700513E3D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF80900B17153CC700513E3D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF80901017153CC700513E3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF80901117153CC700513E3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF80901317153CC700513E3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/TouchTime.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchTime/TouchTime-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BF80901417153CC700513E3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/TouchTime.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchTime/TouchTime-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BF80901617153CC700513E3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchTime/TouchTime-Prefix.pch";
+				INFOPLIST_FILE = "TouchTimeTests/TouchTimeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BF80901717153CC700513E3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchTime/TouchTime-Prefix.pch";
+				INFOPLIST_FILE = "TouchTimeTests/TouchTimeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF808FE817153CC700513E3D /* Build configuration list for PBXProject "TouchTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF80901017153CC700513E3D /* Debug */,
+				BF80901117153CC700513E3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF80901217153CC700513E3D /* Build configuration list for PBXNativeTarget "TouchTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF80901317153CC700513E3D /* Debug */,
+				BF80901417153CC700513E3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF80901517153CC700513E3D /* Build configuration list for PBXNativeTarget "TouchTimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF80901617153CC700513E3D /* Debug */,
+				BF80901717153CC700513E3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF808FE517153CC700513E3D /* Project object */;
+}
