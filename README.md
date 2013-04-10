@@ -26,4 +26,4 @@ For information on the PHP _strtotime_ function, see http://php.net/manual/en/fu
 
 For a detailed list of formats supported by the PHP _strtotime_ function, see http://www.php.net/manual/en/datetime.formats.php.
 
-If you like what you see, don't hesitate to show your love via twitter and [tweet me](https://twitter.com/jimheising).
+If you like what you see, don't hesitate to show your love and [tweet me](https://twitter.com/jimheising).
